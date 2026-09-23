@@ -1,0 +1,39 @@
+# env / secrets
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# node
+node_modules/
+.next/
+out/
+
+# data (downloaded public datasets stay out of git)
+data/raw/
+data/cache/
+*.tif
+*.zip
+
+# docker volumes / local
+pgdata/
+qdrant_storage/
+minio_data/
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# demo recordings (regenerate with scripts/record_demo.py)
+demo/
+
+.vercel
+.env*
