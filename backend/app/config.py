@@ -39,6 +39,7 @@ class Settings(BaseSettings):
         "https://frontend-ruddy-seven-43.vercel.app,"
         "https://frontend-d17d1c17k-sweety081006.vercel.app,"
         "https://frontend-fl71790it-sweety081006.vercel.app,"
+        "https://*.vercel.app,"
         "http://localhost:3000"
     )
 
