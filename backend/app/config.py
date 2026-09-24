@@ -35,7 +35,12 @@ class Settings(BaseSettings):
     jwt_algorithm: str = "HS256"
     jwt_ttl_minutes: int = 60 * 12
     pilot_state: str = "Bihar"
-    cors_origins: str = "http://localhost:3000"
+    cors_origins: str = (
+        "https://frontend-ruddy-seven-43.vercel.app,"
+        "https://frontend-d17d1c17k-sweety081006.vercel.app,"
+        "https://frontend-fl71790it-sweety081006.vercel.app,"
+        "http://localhost:3000"
+    )
 
     @property
     def cors_origin_list(self) -> list[str]:
